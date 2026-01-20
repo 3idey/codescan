@@ -1,6 +1,6 @@
 module github.com/3idey/codescan
 
-go 1.24.0
+go 1.23
 
 require (
 	github.com/go-openapi/loads v0.23.2
