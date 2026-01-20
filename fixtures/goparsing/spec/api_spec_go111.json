@@ -74,7 +74,7 @@
           "x-go-name":"Name"
         }
       },
-      "x-go-package":"github.com/go-swagger/go-swagger/fixtures/goparsing/spec"
+      "x-go-package":"github.com/3idey/codescan/fixtures/goparsing/spec"
     },
     "DateRange":{
       "description":"DateRange represents a scheduled appointments time\nDateRange should be in definitions since it's being used in a response",
@@ -89,7 +89,7 @@
           "x-go-name":"Start"
         }
       },
-      "x-go-package":"github.com/go-swagger/go-swagger/fixtures/goparsing/spec"
+      "x-go-package":"github.com/3idey/codescan/fixtures/goparsing/spec"
     }
   },
   "responses":{

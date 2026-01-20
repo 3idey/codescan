@@ -30,14 +30,14 @@ definitions:
                 type: string
                 x-go-name: Start
         type: object
-        x-go-package: github.com/go-swagger/go-swagger/fixtures/goparsing/spec
+        x-go-package: github.com/3idey/codescan/fixtures/goparsing/spec
     User:
         properties:
             name:
                 type: string
                 x-go-name: Name
         type: object
-        x-go-package: github.com/go-swagger/go-swagger/fixtures/goparsing/spec
+        x-go-package: github.com/3idey/codescan/fixtures/goparsing/spec
 host: localhost
 info:
     description: |-

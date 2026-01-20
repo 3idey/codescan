@@ -57,7 +57,7 @@ definitions:
       name:
         type: string
         x-go-name: Name
-    x-go-package: github.com/go-swagger/go-swagger/fixtures/goparsing/spec
+    x-go-package: github.com/3idey/codescan/fixtures/goparsing/spec
   DateRange:
     description: |-
       DateRange represents a scheduled appointments time
@@ -70,7 +70,7 @@ definitions:
       start:
         type: string
         x-go-name: Start
-    x-go-package: github.com/go-swagger/go-swagger/fixtures/goparsing/spec
+    x-go-package: github.com/3idey/codescan/fixtures/goparsing/spec
 responses:
   BookingResponse:
     description: BookingResponse represents a scheduled appointment

@@ -78,7 +78,7 @@
           "x-go-name": "Start"
         }
       },
-      "x-go-package": "github.com/go-swagger/go-swagger/fixtures/goparsing/spec"
+      "x-go-package": "github.com/3idey/codescan/fixtures/goparsing/spec"
     },
     "User": {
       "type": "object",
@@ -88,7 +88,7 @@
           "x-go-name": "Name"
         }
       },
-      "x-go-package": "github.com/go-swagger/go-swagger/fixtures/goparsing/spec"
+      "x-go-package": "github.com/3idey/codescan/fixtures/goparsing/spec"
     }
   },
   "responses": {

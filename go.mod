@@ -1,6 +1,6 @@
 module github.com/3idey/codescan
 
-go 1.25.5
+go 1.24.0
 
 require (
 	github.com/go-openapi/loads v0.23.2
@@ -8,7 +8,6 @@ require (
 	github.com/go-openapi/spec v0.22.3
 	github.com/go-openapi/strfmt v0.25.0
 	github.com/go-openapi/swag v0.25.4
-	github.com/go-swagger/go-swagger v0.33.1
 	github.com/go-swagger/scan-repo-boundary v0.0.0-20180623220736-973b3573c013
 	github.com/spf13/cobra v1.10.2
 	github.com/stretchr/testify v1.11.1
