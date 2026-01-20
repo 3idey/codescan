@@ -1,4 +1,4 @@
-module github.com/go-swagger/codescan
+module github.com/3idey/codescan
 
 go 1.25.5
 

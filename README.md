@@ -1,7 +1,7 @@
 # codescan
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/go-swagger/codescan.svg)](https://pkg.go.dev/github.com/go-swagger/codescan)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-swagger/codescan)](https://goreportcard.com/report/github.com/go-swagger/codescan)
+[![Go Reference](https://pkg.go.dev/badge/github.com/3idey/codescan.svg)](https://pkg.go.dev/github.com/3idey/codescan)
+[![Go Report Card](https://goreportcard.com/badge/github.com/3idey/codescan)](https://goreportcard.com/report/github.com/3idey/codescan)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A Go library and CLI tool that scans annotated Go source code and generates OpenAPI 2.0 (Swagger) specifications.
@@ -21,22 +21,22 @@ Originally part of [go-swagger](https://github.com/go-swagger/go-swagger), now a
 ### As a Library
 
 ```bash
-go get github.com/go-swagger/codescan
+go get github.com/3idey/codescan
 ```
 
 ### As a CLI Tool
 
 ```bash
-go install github.com/go-swagger/codescan/cmd/codescan@latest
+go install github.com/3idey/codescan/cmd/codescan@latest
 ```
 
 ### Using Docker
 
 ```bash
-docker pull ghcr.io/go-swagger/codescan:latest
+docker pull ghcr.io/3idey/codescan:latest
 
 # Scan current directory
-docker run --rm -v $(pwd):/workspace ghcr.io/go-swagger/codescan generate ./...
+docker run --rm -v $(pwd):/workspace ghcr.io/3idey/codescan generate ./...
 ```
 
 ## Usage
@@ -51,7 +51,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/go-swagger/codescan/codescan"
+    "github.com/3idey/codescan/codescan"
 )
 
 func main() {

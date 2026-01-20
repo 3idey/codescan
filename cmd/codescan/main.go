@@ -11,8 +11,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/3idey/codescan/codescan"
 	"github.com/go-openapi/spec"
-	"github.com/go-swagger/codescan/codescan"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 )
