@@ -32,3 +32,6 @@ Thumbs.db
 
 # Build output
 dist/
+
+# Test fixtures (downloaded from go-swagger for testing)
+# fixtures/
